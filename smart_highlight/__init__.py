@@ -23,15 +23,15 @@
 
 
 
-import gedit
+import pluma
 import gtk
 from smart_highlight import SmartHighlightWindowHelper
 from config_ui import ConfigUI
 
 
-class SmartHighlightingPlugin(gedit.Plugin):
+class SmartHighlightingPlugin(pluma.Plugin):
 	def __init__(self):
-		gedit.Plugin.__init__(self)
+		pluma.Plugin.__init__(self)
 		self._instances = {}
 
 	def activate(self, window):
@@ -52,7 +52,7 @@ class SmartHighlightingPlugin(gedit.Plugin):
 		return dlg.configWindow
 
 	def get_instance(self):
-		window = gedit.app_get_default().get_active_window()
+		window = pluma.app_get_default().get_active_window()
 		return self._instances[window], window
 
 

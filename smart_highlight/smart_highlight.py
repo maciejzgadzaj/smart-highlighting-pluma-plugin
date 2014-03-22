@@ -25,7 +25,7 @@
 
 
 import gtk
-import gedit
+import pluma
 import re
 import os.path
 #import pango
