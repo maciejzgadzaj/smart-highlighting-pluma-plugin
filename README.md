@@ -1,6 +1,6 @@
 # Smart Highlighting pluma plugin
 
-Smart highlighting is a plugin for gedit that highlight all occurrences of selected text.
+Smart highlighting is a plugin for pluma that highlight all occurrences of selected text.
 
 The original [smart-highlighting-gedit](https://code.google.com/p/smart-highlighting-gedit/) was written by [swatch.c...@gmail.com](https://code.google.com/u/111699172889945152108/), this is just a fork of its version 2.0.2 refactored to work with [Linux Mint](http://www.linuxmint.com/)'s **pluma** text editor.
 
